@@ -25,8 +25,3 @@ function formatArrayStrings (stringArr, numArr){
     }
 )
 }
-
-post = [1, 5, 6, 8, 9]
-bar = ["coOkiE", "bOok", "CRAbs", "pLayeR", "gYm"]
-
-console.log(formatArrayStrings(bar, post));
