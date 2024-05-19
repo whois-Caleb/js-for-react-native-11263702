@@ -15,7 +15,11 @@ Again used the mod 2 operator to determine if an element was odd or even.
 Capitalised or converted string to lowercase when required using the str.toUpperCase and the str.toLowerCase methods respectively.
 
 ### Task 3
+Created package to enable importin and exporting functions.
+
 Initialised "userIdCounter".
+
+Imported 'formatArrayStrings' from arrayManipulation.js to userInfo.js.
 
 Created array "profiles" to store user profiles.
 
