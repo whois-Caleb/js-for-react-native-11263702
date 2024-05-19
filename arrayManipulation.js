@@ -11,9 +11,9 @@ function processArray (arr){
 }
 
 
-function formatArrayStrings (stringArr, numArr){
+export function formatArrayStrings (stringArr, numArr){
     return stringArr.map((str, index) =>{
-        processedNum = processArray(numArr);
+        var processedNum = processArray(numArr);
 
         const num = processedNum[index];
         if (num % 2 === 0){
