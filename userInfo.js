@@ -1,4 +1,9 @@
-userIdCounter = 1
+var userIdCounter = 1
+import { formatArrayStrings } from "./arrayManipulation.js";
+
+var rawNames = ["biLl", "jiM", "bOb"];
+var numbers = [2, 3, 6];
+const modifiedNamesArr = formatArrayStrings(rawNames, numbers);
 
 function createUserProfiles (namesArr , modifiedNamesArr) {
     const profiles = [];
@@ -17,3 +22,6 @@ function createUserProfiles (namesArr , modifiedNamesArr) {
     }
     return profiles;
 }
+
+var names = ["Kim", "Lynn", "Jae"];
+console.log(createUserProfiles(names, modifiedNamesArr))
